@@ -149,52 +149,6 @@ body {
     border: 1px solid rgba(91, 192, 190, 0.3);
 }
 
-/* Barra de Busca Drill Down */
-.search-container {
-    display: flex;
-    align-items: center;
-    background: rgba(0, 0, 0, 0.25);
-    border-radius: 50px;
-    padding: 0.8rem 1.2rem;
-    margin-bottom: 1.5rem;
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    transition: border-color 0.3s, box-shadow 0.3s, background 0.3s;
-}
-
-.search-container:focus-within {
-    border-color: var(--accent);
-    box-shadow: 0 0 15px rgba(91, 192, 190, 0.2);
-    background: rgba(0, 0, 0, 0.4);
-}
-
-.search-icon {
-    width: 20px;
-    height: 20px;
-    min-width: 20px; /* Trava o tamanho mínimo */
-    flex-shrink: 0; /* Impede que a lupa seja expandida pelo navegador */
-    stroke: var(--text-muted);
-    margin-right: 12px;
-    transition: stroke 0.3s;
-}
-
-.search-container:focus-within .search-icon {
-    stroke: var(--accent);
-}
-
-.search-input {
-    flex: 1;
-    background: transparent;
-    border: none;
-    color: var(--text-main);
-    font-size: 1rem;
-    font-family: var(--font-main);
-    outline: none;
-}
-
-.search-input::placeholder {
-    color: rgba(148, 163, 184, 0.6);
-}
-
 /* Menus Sanfona (Accordions) */
 details.accordion {
     background: rgba(0,0,0,0.25);
@@ -218,8 +172,10 @@ details.accordion summary {
     align-items: center;
 }
 
+/* Esconde a seta padrão */
 details.accordion summary::-webkit-details-marker { display: none; }
 
+/* Ícone de Mais/Menos customizado */
 details.accordion summary::after {
     content: '+';
     color: var(--accent);
