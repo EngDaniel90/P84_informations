@@ -1,6 +1,0 @@
-Vessel Name = P-84 / P-85
-Location = Pre-Salt Layer, Santos Basin
-Oil Production Capacity = 225,000 bpd
-Gas Compression = 10 million m³/day
-Water Injection = 250,000 bpd
-Hull Type = Floating Production Storage and Offloading
