@@ -132,19 +132,23 @@ body {
     flex-direction: column;
 }
 
+/* --- AQUI ESTÃO AS ALTERAÇÕES PRINCIPAIS --- */
+
 .info-item .label {
-    font-size: 0.85rem;
-    color: var(--text-muted);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 600;
-    margin-bottom: 0.2rem;
+    font-size: 1.2rem; /* Aumentado para ficar mais evidente */
+    color: var(--text-main); /* Cor branca de alto contraste */
+    font-weight: 700; /* Negrito mais forte */
+    margin-bottom: 0.1rem;
+    letter-spacing: 0.5px;
 }
 
 .info-item .value {
-    font-size: 1.1rem;
-    font-weight: 400;
+    font-size: 0.95rem; /* Diminuído ligeiramente */
+    color: var(--text-muted); /* Cor mais discreta e profissional */
+    font-weight: 400; /* Peso normal da fonte */
 }
+
+/* ------------------------------------------- */
 
 /* Footer Profile */
 footer {
