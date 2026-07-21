@@ -1,10 +1,65 @@
-<!-- Topside Modules (Accordions + Search) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>P84/P85 App Portal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="animate-on-load">P84/P85 Portal</h1>
+            <p class="subtitle animate-on-load delay-1">Floating Production Storage & Offloading</p>
+        </div>
+        <div class="hero-image-container animate-on-load delay-2">
+            <img src="fpso.png" alt="FPSO Vessel" class="fpso-image" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1590496793907-74c05877dbdb?auto=format&fit=crop&w=900&q=80';">
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <div class="grid">
+            
+            <!-- General Information -->
+            <section class="card glass-effect fade-in">
+                <h2>General Specs</h2>
+                <div class="info-list">
+                    <div class="info-item-row">
+                        <span class="label">Vessel</span>
+                        <span class="value">P-84 / P-85</span>
+                    </div>
+                    <div class="info-item-row">
+                        <span class="label">Location</span>
+                        <span class="value">Santos Basin</span>
+                    </div>
+                    <div class="info-item-row">
+                        <span class="label">Oil Cap</span>
+                        <span class="value">225,000 bpd</span>
+                    </div>
+                    <div class="info-item-row">
+                        <span class="label">Gas Comp</span>
+                        <span class="value">10M m³/day</span>
+                    </div>
+                    <div class="info-item-row">
+                        <span class="label">Water Inj</span>
+                        <span class="value">250,000 bpd</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Topside Modules (Accordions + Search) -->
             <section class="card glass-effect fade-in">
                 <h2>Topside Modules</h2>
                 
                 <!-- Barra de Busca -->
                 <div class="search-container">
-                    <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <svg class="search-icon" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <circle cx="11" cy="11" r="8"></circle>
                         <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
                     </svg>
@@ -71,3 +126,21 @@
                     </div>
                 </details>
             </section>
+
+        </div>
+    </main>
+
+    <!-- App Bottom Bar (Developer Profile) -->
+    <nav class="bottom-bar glass-effect">
+        <div class="developer-profile">
+            <img src="profile.png" alt="Daniel" class="profile-pic" onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=Daniel+Alves+Anversi&background=5BC0BE&color=fff&size=128';">
+            <div class="dev-text">
+                <span class="dev-name">Daniel Alves Anversi</span>
+                <span class="dev-role">Electrical Engineer | PETROBRAS</span>
+            </div>
+        </div>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
