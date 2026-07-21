@@ -4,59 +4,127 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>P84/P85 Information Portal</title>
+    <!-- Google Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Hero Section -->
     <header class="hero">
         <div class="hero-content">
             <h1 class="animate-on-load">P84/P85 Information Portal</h1>
             <p class="subtitle animate-on-load delay-1">Floating Production Storage and Offloading Unit</p>
         </div>
         <div class="hero-image-container animate-on-load delay-2">
-            <img src="fpso.jpg" alt="FPSO Vessel" class="fpso-image">
+            <img src="fpso.png" alt="FPSO Vessel" class="fpso-image" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1590496793907-74c05877dbdb?auto=format&fit=crop&w=900&q=80';">
         </div>
     </header>
 
+    <!-- Main Content -->
     <main class="container">
         <div class="grid">
+            
+            <!-- General Information -->
             <section class="card fade-in">
                 <h2>General Information</h2>
                 <div class="info-list">
-                    <div class="info-item"><span class="label">Vessel Name</span><span class="value">P-84 / P-85</span></div>
-                    <div class="info-item"><span class="label">Location</span><span class="value">Pre-Salt Layer, Santos Basin</span></div>
-                    <div class="info-item"><span class="label">Oil Production Capacity</span><span class="value">225,000 bpd</span></div>
-                    <div class="info-item"><span class="label">Gas Compression</span><span class="value">10 million m³/day</span></div>
-                    <div class="info-item"><span class="label">Water Injection</span><span class="value">250,000 bpd</span></div>
-                    <div class="info-item"><span class="label">Hull Type</span><span class="value">Floating Production Storage and Offloading</span></div>
+                    <div class="info-item">
+                        <span class="label">Vessel Name</span>
+                        <span class="value">P-84 / P-85</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Location</span>
+                        <span class="value">Pre-Salt Layer, Santos Basin</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Oil Production Capacity</span>
+                        <span class="value">225,000 bpd</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Gas Compression</span>
+                        <span class="value">10 million m³/day</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Water Injection</span>
+                        <span class="value">250,000 bpd</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="label">Hull Type</span>
+                        <span class="value">Floating Production Storage and Offloading</span>
+                    </div>
                 </div>
             </section>
 
+            <!-- Topside Modules Agrupados -->
             <section class="card fade-in">
                 <h2>Topside Modules</h2>
+                
+                <h3 class="module-group">Gas Processing</h3>
                 <div class="info-list">
-                    <div class="info-item"><span class="label">Module 01</span><span class="value">Oil Separation & Processing</span></div>
-                    <div class="info-item"><span class="label">Module 02</span><span class="value">Gas Compression Plant</span></div>
-                    <div class="info-item"><span class="label">Module 03</span><span class="value">Water Treatment & Injection</span></div>
-                    <div class="info-item"><span class="label">Module 04</span><span class="value">Power Generation</span></div>
-                    <div class="info-item"><span class="label">Module 05</span><span class="value">Flare & Vent Systems</span></div>
-                    <div class="info-item"><span class="label">Module 06</span><span class="value">Chemical Injection</span></div>
+                    <div class="info-item"><span class="label">M02</span><span class="value">CO2 Compression</span></div>
+                    <div class="info-item"><span class="label">M04</span><span class="value">CO2 Removal</span></div>
+                    <div class="info-item"><span class="label">M05</span><span class="value">Main Compression</span></div>
+                    <div class="info-item"><span class="label">M06</span><span class="value">GDU, Fuel Gas & HCD</span></div>
+                    <div class="info-item"><span class="label">M07A</span><span class="value">Injection and Export</span></div>
+                    <div class="info-item"><span class="label">M07B</span><span class="value">Injection and Export</span></div>
+                </div>
+
+                <h3 class="module-group">Oil & Water Processing</h3>
+                <div class="info-list">
+                    <div class="info-item"><span class="label">M10A</span><span class="value">Oil Processing & Well Service</span></div>
+                    <div class="info-item"><span class="label">M10C</span><span class="value">Oil Processing</span></div>
+                    <div class="info-item"><span class="label">M10B</span><span class="value">Produced Water System</span></div>
+                    <div class="info-item"><span class="label">M11</span><span class="value">Water Injection</span></div>
+                </div>
+
+                <h3 class="module-group">Power Generation, Electrical & Automation</h3>
+                <div class="info-list">
+                    <div class="info-item"><span class="label">M12</span><span class="value">Generation System</span></div>
+                    <div class="info-item"><span class="label">M13</span><span class="value">Generation System</span></div>
+                    <div class="info-item"><span class="label">M13B</span><span class="value">Generation System</span></div>
+                    <div class="info-item"><span class="label">M13R</span><span class="value">Automation & Electrical</span></div>
+                    <div class="info-item"><span class="label">M17</span><span class="value">Automation & Electrical</span></div>
+                </div>
+
+                <h3 class="module-group">Utilities & Chemical Products</h3>
+                <div class="info-list">
+                    <div class="info-item"><span class="label">M14</span><span class="value">Chemical Products</span></div>
+                    <div class="info-item"><span class="label">M15</span><span class="value">Utilities</span></div>
+                    <div class="info-item"><span class="label">M15B</span><span class="value">Hull Utilities</span></div>
+                </div>
+
+                <h3 class="module-group">Flare & Relief Systems</h3>
+                <div class="info-list">
+                    <div class="info-item"><span class="label">FLR</span><span class="value">Flare</span></div>
+                    <div class="info-item"><span class="label">M01</span><span class="value">Flare System</span></div>
+                </div>
+
+                <h3 class="module-group">Manifolds, Structures & Cargo Handling (Laydown)</h3>
+                <div class="info-list">
+                    <div class="info-item"><span class="label">M09</span><span class="value">Manifolds & L/R PIG</span></div>
+                    <div class="info-item"><span class="label">M05B</span><span class="value">VRU System & Laydown</span></div>
+                    <div class="info-item"><span class="label">M16</span><span class="value">Laydown</span></div>
+                    <div class="info-item"><span class="label">MDK</span><span class="value">Maindeck</span></div>
                 </div>
             </section>
+
         </div>
     </main>
 
+    <!-- Footer Profile -->
     <footer>
         <div class="footer-content">
-            <img src="profile.png" alt="Daniel Alves Anversi" class="profile-pic">
+            <img src="profile.png" alt="Daniel Alves Anversi" class="profile-pic" onerror="this.onerror=null; this.src='https://ui-avatars.com/api/?name=Daniel+Alves+Anversi&background=5BC0BE&color=fff&size=128';">
             <div class="developer-info">
                 <h3>Developed by Daniel Alves Anversi</h3>
                 <p>Electrical Engineer | PETROBRAS</p>
             </div>
         </div>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
