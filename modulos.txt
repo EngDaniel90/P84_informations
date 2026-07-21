@@ -1,0 +1,6 @@
+Module 01 = Oil Separation & Processing
+Module 02 = Gas Compression Plant
+Module 03 = Water Treatment & Injection
+Module 04 = Power Generation
+Module 05 = Flare & Vent Systems
+Module 06 = Chemical Injection
