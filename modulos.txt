@@ -1,4 +1,6 @@
-Gas Processing
+FLR – Flare
+
+M01 – Flare System
 
 M02 – CO2 Compression
 
@@ -6,23 +8,23 @@ M04 – CO2 Removal
 
 M05 – Main Compression
 
+M05B – URV System & Laydown
+
 M06 – GDU, Fuel Gas & HCD
 
 M07A – Injection and Export
 
 M07B – Injection and Export
 
-Oil & Water Processing
+M09 – Manifolds & L/R PIG
 
 M10A – Oil Processing & Well Service
 
-M10C – Oil Processing
-
 M10B – Produced Water System
 
-M11 – Water Injection
+M10C – Oil Processing
 
-Power Generation, Electrical & Automation
+M11 – Water Injection
 
 M12 – Generation System
 
@@ -32,28 +34,14 @@ M13B – Generation System
 
 M13R – Automation & Electrical
 
-M17 – Automation & Electrical
-
-Utilities & Chemical Products
-
 M14 – Chemical Products
 
 M15 – Utilities
 
 M15B – Hull Utilities
 
-Flare & Relief Systems
-
-FLR – Flare
-
-M01 – Flare System
-
-Manifolds, Structures & Cargo Handling (Laydown)
-
-M09 – Manifolds & L/R PIG
-
-M05B – URV System & Laydown
-
 M16 – Laydown
+
+M17 – Automation & Electrical
 
 MDK – Maindeck
