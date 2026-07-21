@@ -52,7 +52,7 @@ html_template = f"""<!DOCTYPE html>
             <p class="subtitle animate-on-load delay-1">Floating Production Storage and Offloading Unit</p>
         </div>
         <div class="hero-image-container animate-on-load delay-2">
-            <img src="fpso.jpg" alt="FPSO Vessel" class="fpso-image">
+            <img src="fpso.png" alt="FPSO Vessel" class="fpso-image">
         </div>
     </header>
 
