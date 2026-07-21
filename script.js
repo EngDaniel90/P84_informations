@@ -1,11 +1,6 @@
-document.addEventListener("DOMContentLoaded", () => {
-    // Scroll Animation Observer for the Cards
-    const observerOptions = {
-        root: null,
-        rootMargin: '0px',
-        threshold: 0.2
-    };
 
+document.addEventListener("DOMContentLoaded", () => {
+    const observerOptions = { root: null, rootMargin: '0px', threshold: 0.2 };
     const observer = new IntersectionObserver((entries, observer) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -14,7 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     }, observerOptions);
-
     const fadeElements = document.querySelectorAll('.fade-in');
     fadeElements.forEach(el => observer.observe(el));
 });
